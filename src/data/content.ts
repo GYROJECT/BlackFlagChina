@@ -5,6 +5,7 @@ export type Article = {
   category?: string
   excerpt?: string
   body: string
+  cover?: string
 }
 
 export type Book = {
