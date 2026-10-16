@@ -18,7 +18,13 @@ export default function Layout() {
       <header className="site-header">
         <div className="header-inner">
           <Link to="/" className="logo" onClick={() => setOpen(false)}>
-            <span className="logo-mark" aria-hidden />
+            <img
+              src={`${import.meta.env.BASE_URL}logo-header.png`}
+              alt=""
+              className="logo-img"
+              width={36}
+              height={36}
+            />
             <span>黑旗中国</span>
           </Link>
           <button

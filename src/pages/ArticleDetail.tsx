@@ -20,6 +20,11 @@ export default function ArticleDetail() {
 
   return (
     <>
+      {article.cover ? (
+        <div className="page-cover">
+          <img src={article.cover.startsWith('http') ? article.cover : `${import.meta.env.BASE_URL}${article.cover.replace(/^\//, '')}`} alt="" />
+        </div>
+      ) : null}
       <header className="page-header">
         <p className="card-meta">
           {article.date}

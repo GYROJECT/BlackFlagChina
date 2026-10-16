@@ -1,0 +1,48 @@
+/* Logo */
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+/* Page cover */
+.page-cover {
+  width: 100vw;
+  max-width: 100%;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 2rem;
+  height: clamp(160px, 28vw, 320px);
+  overflow: hidden;
+  position: relative;
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border);
+}
+
+.page-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.page-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, var(--bg) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+/* Article list thumb optional */
+.article-cover-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+}
