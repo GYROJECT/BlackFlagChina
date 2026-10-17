@@ -14,7 +14,8 @@ const links = [
 
 export default function Layout() {
   const [open, setOpen] = useState(false)
-
+  const [, setTheme] = useState<'light' | 'dark'>('light')
+  
   useEffect(() => {
     const read = () => {
       const t = document.documentElement.getAttribute('data-theme')
