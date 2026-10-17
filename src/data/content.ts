@@ -1490,8 +1490,6 @@ export const books: Book[] = [
 完整 PDF 见 Notion 书籍页；本站索引提供书目与概述。
 `,
   },
-
-
   { slug: "book-9314848f58", title: "巴枯宁全集 Volume I：La polemica con Mazzini", category: "巴枯宁全集" },
   { slug: "book-c61069e186", title: "巴枯宁全集 Volume II：La Prima Internazionale in Italia e il conflitto con Marx", category: "巴枯宁全集" },
   { slug: "book-648cab265b", title: "巴枯宁全集 Volume III：反对马克思的斗争", category: "巴枯宁全集" },
@@ -1500,8 +1498,32 @@ export const books: Book[] = [
   { slug: "book-64c454553a", title: "巴枯宁全集 Volume VI：巴枯宁与第一国际及俄国革命运动文献", category: "巴枯宁全集" },
   { slug: "book-e5ef7767ef", title: "巴枯宁全集 Volume VII：法德战争与法国社会革命 1870—1871", category: "巴枯宁全集" },
   { slug: "book-8a447b7e5a", title: "巴枯宁全集 Volume VIII：国家制度与社会革命", category: "巴枯宁全集" },
-  { slug: "book-801e6366c3", title: "世界之三大罪恶（附《无神论》）", category: "20世纪中国无政府主义文献" },
-  { slug: "book-ea9a05e111", title: "中国历史上之安那其主义者", category: "20世纪中国无政府主义文献" },
+  {
+    slug: "book-801e6366c3",
+    title: "世界之三大罪恶（附《无神论》）",
+    category: "20世纪中国无政府主义文献",
+    body: `**作者**：乐无（太虚）
+**整理**：暗鸣
+**文丛**：乌啼文丛·第2种
+**主题**：20世纪中国无政府主义文献
+
+**内容概述**：以「名、利、色」为三大罪恶，讨论政治名位、家族与阶级及无政府主义；附录《无神论》。原刊《良心》1913年。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-ea9a05e111",
+    title: "中国历史上之安那其主义者",
+    category: "20世纪中国无政府主义文献",
+    body: `**作者**：陈嘉蔼
+**整理**：暗鸣
+**文丛**：乌啼文丛·第3种
+**主题**：20世纪中国无政府主义文献
+
+**内容概述**：从中国古代思想与人物中梳理「安那其主义」传统。原刊1925年。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-d11ccbc54d", title: "中国历史上几位安那其主义者", category: "20世纪中国无政府主义文献" },
   { slug: "book-4655eea0da", title: "谈兵", category: "20世纪中国无政府主义文献" },
   { slug: "book-9de12c0e0f", title: "新英雄主义", category: "20世纪中国无政府主义文献" },
@@ -1551,13 +1573,65 @@ export const books: Book[] = [
   { slug: "book-756b133c55", title: "致我们的朋友——资本主义反抗宣言", category: "综合无政府主义—起义无政府主义" },
   { slug: "book-3ee4b13ace", title: "呼吁", category: "综合无政府主义—起义无政府主义" },
   { slug: "book-a5ff438281", title: "更多无产者，更少讣告：从工人阶级的落幕到重构", category: "左翼共产主义及稀有著作" },
-  { slug: "book-a526e31b4a", title: "保罗·马蒂克文选", category: "左翼共产主义及稀有著作" },
-  { slug: "book-29d85ad346", title: "马克思主义与委员会共产主义：现代社会革命理论的基础", category: "左翼共产主义及稀有著作" },
+  {
+    slug: "book-a526e31b4a",
+    title: "保罗·马蒂克文选",
+    category: "左翼共产主义及稀有著作",
+    body: `**作者**：保罗·马蒂克（Paul Mattick）
+**编译**：十二春
+**主题**：左翼共产主义及稀有著作
+
+**内容概述**：左翼共产主义重要理论家保罗·马蒂克的文选。批判国家资本主义、布尔什维克主义，强调工人自我管理与无产阶级自主。
+
+**文件信息**：共 335 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-29d85ad346",
+    title: "马克思主义与委员会共产主义：现代社会革命理论的基础",
+    category: "左翼共产主义及稀有著作",
+    body: `**作者**：彼得·J·拉克莱夫（Peter J. Rachleff）
+**译者**：十二春
+**主题**：左翼共产主义及稀有著作
+
+**内容概述**：系统阐述委员会共产主义作为现代社会革命理论的基础。探讨工人委员会、无产阶级自我管理、对列宁主义的批判。
+
+**文件信息**：共 297 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-922d97e127", title: "博尔迪加选集（中译）", category: "左翼共产主义及稀有著作" },
   { slug: "book-fc6322478a", title: "废除之书", category: "左翼共产主义及稀有著作" },
-  { slug: "book-a019f015e2", title: "反布尔什维克共产主义", category: "左翼共产主义及稀有著作" },
+  {
+    slug: "book-a019f015e2",
+    title: "反布尔什维克共产主义",
+    category: "左翼共产主义及稀有著作",
+    body: `**原书名**：Anti-Bolshevik Communism
+**作者**：保罗·马蒂克（Paul Mattick）
+**主题**：左翼共产主义及稀有著作
+
+**内容概述**：系统批判布尔什维克主义与列宁主义国家资本主义，阐发委员会共产主义立场。
+
+**文件信息**：共 241 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-0ebe939ea4", title: "委员会共产主义读本", category: "左翼共产主义及稀有著作" },
-  { slug: "book-bcbd117b09", title: "工人委员会", category: "左翼共产主义及稀有著作" },
+  {
+    slug: "book-bcbd117b09",
+    title: "工人委员会",
+    category: "左翼共产主义及稀有著作",
+    body: `**原书名**：Workers' Councils
+**作者**：安东尼·潘涅库克（Anton Pannekoek）
+**主题**：左翼共产主义及稀有著作
+
+**内容概述**：阐述工人委员会作为无产阶级自我组织与社会革命的核心形式，是委员会共产主义传统的奠基文献之一。
+
+**文件信息**：共 137 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-a91e5b9688", title: "致列宁同志的公开信", category: "左翼共产主义及稀有著作" },
   { slug: "book-65c863712c", title: "马克思和凯恩斯：混合经济的局限性", category: "左翼共产主义及稀有著作" },
   { slug: "book-227931f669", title: "作为哲学家的列宁", category: "左翼共产主义及稀有著作" },
@@ -1571,9 +1645,34 @@ export const books: Book[] = [
   { slug: "book-7c9c310b53", title: "腹腹时钟：都市游击兵士读本 VOL.I", category: "选集及文集" },
   { slug: "book-4eb740cfce", title: "大杉荣自叙：一个叛逆者的独白", category: "选集及文集" },
   { slug: "book-286263f632", title: "师复文集", category: "选集及文集" },
-  { slug: "book-04eb4caabd", title: "巴金短文选集", category: "选集及文集" },
+  {
+    slug: "book-04eb4caabd",
+    title: "巴金短文选集",
+    category: "选集及文集",
+    body: `**作者**：巴金（李尧棠，1904—2005）
+**主题**：选集及文集
+
+**内容概述**：巴金早期与中期短文、政论与序跋选编。青年时代深受无政府主义影响。
+
+**文件信息**：共 128 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-468a589bc2", title: "马拉泰斯塔：生平与思想", category: "选集及文集" },
-  { slug: "book-fa00a2a906", title: "克鲁泡特金：无政府主义——革命文集", category: "选集及文集" },
+  {
+    slug: "book-fa00a2a906",
+    title: "克鲁泡特金：无政府主义——革命文集",
+    category: "选集及文集",
+    body: `**原书名**：Anarchism: A Collection of Revolutionary Writings
+**作者**：彼得·克鲁泡特金（Peter Kropotkin）
+**主题**：选集及文集
+
+**内容概述**：克鲁泡特金小册子与革命文稿合集，涵盖理论、互助、社会革命与国家批判。
+
+**文件信息**：共 420 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-22e42f871a", title: "社会生存躺平指南", category: "后现代主义" },
   { slug: "book-3c658a1129", title: "回到革命：德勒兹、瓜塔里与萨帕塔主义", category: "后现代主义" },
   { slug: "book-96bcef9346", title: "无政府主义者对萨帕塔革命结构与方向的分析", category: "后现代主义" },
