@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Outlet, NavLink, Link } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle'
 
 const links = [
   { to: '/articles', label: '文章' },
@@ -23,19 +24,22 @@ export default function Layout() {
               src={`${import.meta.env.BASE_URL}logo-header.png`}
               alt=""
               className="logo-img"
-              width={36}
-              height={36}
+              width={28}
+              height={28}
             />
             <span>黑旗中国</span>
           </Link>
-          <button
-            className="nav-toggle"
-            type="button"
-            onClick={() => setOpen((v) => !v)}
-            aria-label="菜单"
-          >
-            {open ? '关闭' : '菜单'}
-          </button>
+          <div className="header-actions">
+            <ThemeToggle />
+            <button
+              className="nav-toggle"
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              aria-label="菜单"
+            >
+              {open ? '关闭' : '菜单'}
+            </button>
+          </div>
           <nav className={`nav${open ? ' open' : ''}`}>
             {links.map((l) => (
               <NavLink
@@ -60,7 +64,7 @@ export default function Layout() {
             中国无政府主义者总会
           </a>
         </p>
-        <p style={{ marginTop: '0.4rem', opacity: 0.7 }}>
+        <p style={{ marginTop: '0.25rem', opacity: 0.7 }}>
           内容采用自由分享原则 · 欢迎转载并注明出处
         </p>
       </footer>
