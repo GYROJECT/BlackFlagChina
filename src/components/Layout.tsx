@@ -60,7 +60,7 @@ export default function Layout() {
       <footer className="site-footer">
         <p>
           黑旗中国网 · 独立公共资料平台 ·{' '}
-          <a href="https://www.caanet.top/?slpc=IgsQKxg66OkvgcKeVFdhJil8hgpPibBsQq1d7WU6qOAg1xssCjb6HcVATLvQyWCuW0dSaDrUa6M01iuHckc3mChwGr1L0nm4j" target="_blank" rel="noreferrer">
+          <a href="https://www.caanet.top" target="_blank" rel="noreferrer">
             中国无政府主义者总会
           </a>
         </p>
