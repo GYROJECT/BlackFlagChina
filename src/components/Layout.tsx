@@ -14,7 +14,6 @@ const links = [
 
 export default function Layout() {
   const [open, setOpen] = useState(false)
-  const [theme, setTheme] = useState<'light' | 'dark'>('dark')
 
   useEffect(() => {
     const read = () => {
