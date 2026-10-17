@@ -30,10 +30,7 @@ export default function Layout() {
     return () => obs.disconnect()
   }, [])
 
-  const logoSrc =
-    theme === 'light'
-      ? `${import.meta.env.BASE_URL}logo-header-light.png`
-      : `${import.meta.env.BASE_URL}logo-header-dark.png`
+  const logoSrc = `${import.meta.env.BASE_URL}logo.png`
 
   return (
     <div className="site">

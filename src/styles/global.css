@@ -84,6 +84,8 @@ button { font-family: inherit; }
   height: 28px;
   object-fit: contain;
   border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.9); /* 给透明图片加个 90% 透明度的白底 */
+  padding: 2px; /* 稍微留一点边距，别贴着边 */
 }
 .logo-mark {
   width: 22px; height: 22px;
