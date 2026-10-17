@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Outlet, NavLink, Link } from 'react-router-dom'
 import ThemeToggle from './ThemeToggle'
 
@@ -14,6 +14,26 @@ const links = [
 
 export default function Layout() {
   const [open, setOpen] = useState(false)
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark')
+
+  useEffect(() => {
+    const read = () => {
+      const t = document.documentElement.getAttribute('data-theme')
+      setTheme(t === 'light' ? 'light' : 'dark')
+    }
+    read()
+    const obs = new MutationObserver(read)
+    obs.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    })
+    return () => obs.disconnect()
+  }, [])
+
+  const logoSrc =
+    theme === 'light'
+      ? `${import.meta.env.BASE_URL}logo-header-light.png`
+      : `${import.meta.env.BASE_URL}logo-header-dark.png`
 
   return (
     <div className="site">
@@ -21,7 +41,7 @@ export default function Layout() {
         <div className="header-inner">
           <Link to="/" className="logo" onClick={() => setOpen(false)}>
             <img
-              src={`${import.meta.env.BASE_URL}logo-header.png`}
+              src={logoSrc}
               alt=""
               className="logo-img"
               width={28}
