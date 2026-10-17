@@ -6,6 +6,7 @@ const links = [
   { to: '/news', label: '新闻' },
   { to: '/notices', label: '公告' },
   { to: '/books', label: '书籍' },
+  { to: '/gallery', label: '图集' },
   { to: '/about', label: '关于' },
   { to: '/contact', label: '联系' },
 ]

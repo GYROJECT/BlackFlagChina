@@ -7,6 +7,7 @@ import News from './pages/News'
 import Notices from './pages/Notices'
 import Books from './pages/Books'
 import BookDetail from './pages/BookDetail'
+import Gallery from './pages/Gallery'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/notices" element={<Notices />} />
         <Route path="/books" element={<Books />} />
         <Route path="/books/:slug" element={<BookDetail />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Route>
