@@ -1490,10 +1490,41 @@ export const books: Book[] = [
 完整 PDF 见 Notion 书籍页；本站索引提供书目与概述。
 `,
   },
-  { slug: "book-9314848f58", title: "巴枯宁全集 Volume I：La polemica con Mazzini", category: "巴枯宁全集" },
+  {
+    slug: "book-9314848f58",
+    title: "巴枯宁全集 Volume I：La polemica con Mazzini",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere complete, vol. I: La polemica con Mazzini
+**中文**：巴枯宁全集·卷一：与马志尼论战
+**作者**：米哈伊尔·巴枯宁
+**语言**：意大利语
+**主题**：巴枯宁全集
+
+**内容概述**：巴枯宁全集第一卷，收入围绕朱塞佩·马志尼展开的论战文字，并包含编者导言与注释。材料对于理解巴枯宁成熟时期无政府主义思想的发展尤其重要，涉及唯物主义、无神论、阶级、国家、代表制、巴黎公社等问题。
+
+**文件信息**：共 1127 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-c61069e186", title: "巴枯宁全集 Volume II：La Prima Internazionale in Italia e il conflitto con Marx", category: "巴枯宁全集" },
   { slug: "book-648cab265b", title: "巴枯宁全集 Volume III：反对马克思的斗争", category: "巴枯宁全集" },
-  { slug: "book-6cf6d63676", title: "巴枯宁全集 Volume IV：国家制度与无政府状态", category: "巴枯宁全集" },
+  {
+    slug: "book-6cf6d63676",
+    title: "巴枯宁全集 Volume IV：国家制度与无政府状态",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, vol. IV
+**中文**：巴枯宁全集·卷四：国家制度与无政府状态
+**作者**：米哈伊尔·巴枯宁
+**语言**：意大利语
+**编者／导言**：Alfredo M. Bonanno
+**主题**：巴枯宁全集
+
+**内容概述**：围绕《国家制度与无政府状态》及相关材料，收录关于国家、资本主义、革命、阶级、民族问题、科学与权威、第一国际以及革命组织等问题的重要文本。
+
+**文件信息**：共 273 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-b2d6b6530d", title: "巴枯宁全集 Volume V：涅恰耶夫问题与俄国革命文献", category: "巴枯宁全集" },
   { slug: "book-64c454553a", title: "巴枯宁全集 Volume VI：巴枯宁与第一国际及俄国革命运动文献", category: "巴枯宁全集" },
   { slug: "book-e5ef7767ef", title: "巴枯宁全集 Volume VII：法德战争与法国社会革命 1870—1871", category: "巴枯宁全集" },
@@ -1639,9 +1670,52 @@ export const books: Book[] = [
   { slug: "book-e3382aa9a4", title: "杜鲁蒂之友：历史与文献选辑", category: "选集及文集" },
   { slug: "book-fc664829cd", title: "论革命与教会中的正义", category: "选集及文集" },
   { slug: "book-4648f69bec", title: "回忆与文稿 1917—1932", category: "选集及文集" },
-  { slug: "book-9cc87701cc", title: "巴枯宁政论选集", category: "选集及文集" },
-  { slug: "book-e6366ffcdd", title: "默里·布克金读本", category: "选集及文集" },
-  { slug: "book-70ddedf8ee", title: "戈尔德曼散文集：无政府主义与其他", category: "选集及文集" },
+  {
+    slug: "book-9cc87701cc",
+    title: "巴枯宁政论选集",
+    category: "选集及文集",
+    body: `**原书名**：Selected Works of Mikhail Bakunin
+**编者**：萨姆·多尔戈夫（Sam Dolgoff）
+**中文译本**
+**主题**：选集及文集
+
+**内容概述**：多尔戈夫编选的巴枯宁政论选本中文译本。分四部分：早期著作、巴枯宁的无政府主义、普法战争与巴黎公社、晚年，并附参考文献。
+
+**文件信息**：共 109 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-e6366ffcdd",
+    title: "默里·布克金读本",
+    category: "选集及文集",
+    body: `**原书名**：The Murray Bookchin Reader
+**作者**：默里·布克金（Murray Bookchin）
+**编者**：珍妮特·比埃尔（Janet Biehl）
+**中文译本**：第2版
+**主题**：选集及文集
+
+**内容概述**：围绕社会生态学、自由意志主义与辩证自然主义，呈现布克金关于层级制、城市与生态学、直接民主、自由意志社会主义等核心思想的代表性论述。
+
+**文件信息**：共 169 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-70ddedf8ee",
+    title: "戈尔德曼散文集：无政府主义与其他",
+    category: "选集及文集",
+    body: `**原书名**：Anarchism and Other Essays
+**作者**：爱玛·戈德曼（Emma Goldman）
+**年份**：1910
+**主题**：选集及文集
+
+**内容概述**：戈德曼经典散文集中文译本。收录关于无政府主义、女权、婚姻、教育、戏剧、暴力与政治迫害等主题的代表性文章。
+
+**文件信息**：共 123 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-7c9c310b53", title: "腹腹时钟：都市游击兵士读本 VOL.I", category: "选集及文集" },
   { slug: "book-4eb740cfce", title: "大杉荣自叙：一个叛逆者的独白", category: "选集及文集" },
   { slug: "book-286263f632", title: "师复文集", category: "选集及文集" },
@@ -1658,7 +1732,19 @@ export const books: Book[] = [
 
 完整 PDF 见 Notion 书籍页。`,
   },
-  { slug: "book-468a589bc2", title: "马拉泰斯塔：生平与思想", category: "选集及文集" },
+  {
+    slug: "book-468a589bc2",
+    title: "马拉泰斯塔：生平与思想",
+    category: "选集及文集",
+    body: `**原书名**：Malatesta: Life and Ideas
+**编译**：弗农·理查兹（Vernon Richards）
+**序言**：卡尔·莱维（Carl Levy）
+**主题**：选集及文集
+
+**内容概述**：按主题编排马拉泰斯塔关于无政府状态、目的与手段、组织、革命、工会、暴力等核心论述，并附传记笔记与附录。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   {
     slug: "book-fa00a2a906",
     title: "克鲁泡特金：无政府主义——革命文集",
@@ -1716,10 +1802,39 @@ export const books: Book[] = [
   { slug: "book-1e21389f89", title: "CGT第十九届联邦大会协议（萨拉戈萨2022）", category: "工团主义" },
   { slug: "book-68f44976f7", title: "暴力、神话与道德——乔治·索雷尔政治理论研究", category: "工团主义" },
   { slug: "book-36dbd57b16", title: "马克思主义的解体（进步的幻觉）", category: "工团主义" },
-  { slug: "book-93d004bbc5", title: "无政府工团主义：理论与实践", category: "工团主义" },
+  {
+    slug: "book-93d004bbc5",
+    title: "无政府工团主义：理论与实践",
+    category: "工团主义",
+    body: `**书名**：无政府工团主义：理论与实践
+**作者**：鲁道夫·罗克尔（Rudolf Rocker）
+**年份**：1938
+**主题**：工团主义
+
+**内容概述**：无政府工团主义经典导论。罗克尔系统阐述其理论与实践，并以西班牙战争为背景加以说明。中文译本。
+
+**文件信息**：共 71 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-7e890f7ea7", title: "法国的工团主义——思想研究", category: "工团主义" },
   { slug: "book-c6c40bd7d0", title: "进步的幻象", category: "工团主义" },
-  { slug: "book-9aca58d5d8", title: "论暴力", category: "工团主义" },
+  {
+    slug: "book-9aca58d5d8",
+    title: "论暴力",
+    category: "工团主义",
+    body: `**书名**：论暴力
+**原书名**：Réflexions sur la violence
+**作者**：乔治·索雷尔（Georges Sorel）
+**出版社**：上海世纪出版集团（世纪文库）
+**主题**：工团主义
+
+**内容概述**：索雷尔代表作。系统论述无产阶级暴力、总罢工神话、工团主义与道德的关系，批判议会社会主义与改良主义。
+
+**文件信息**：共 262 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-c2076522fd", title: "Anarcho-Syndicalism（罗克尔，Pluto 版）", category: "工团主义" },
   { slug: "book-19444e9c68", title: "什么是无政府工团主义？", category: "工团主义" },
   { slug: "book-7e0366f759", title: "无政府主义与无政府工团主义", category: "工团主义" },
