@@ -1506,8 +1506,39 @@ export const books: Book[] = [
 
 完整 PDF 见 Notion 书籍页。`,
   },
-  { slug: "book-c61069e186", title: "巴枯宁全集 Volume II：La Prima Internazionale in Italia e il conflitto con Marx", category: "巴枯宁全集" },
-  { slug: "book-648cab265b", title: "巴枯宁全集 Volume III：反对马克思的斗争", category: "巴枯宁全集" },
+  {
+    slug: "book-c61069e186",
+    title: "巴枯宁全集 Volume II：La Prima Internazionale in Italia e il conflitto con Marx",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, Volume II: La Prima Internazionale in Italia e il conflitto con Marx
+**中文**：巴枯宁全集·卷二：第一国际在意大利与同马克思的冲突
+**作者**：米哈伊尔·巴枯宁
+**编者**：Arthur Lehning
+**导言**：Alfredo M. Bonanno
+**语言**：意大利语
+**主题**：巴枯宁全集
+
+**内容概述**：收录巴枯宁围绕第一国际、意大利革命运动以及与马克思主义阵营冲突展开的文字与历史材料，包括《社会主义与马志尼》《个人与马克思的关系》《意大利与国际工人协会总委员会》等。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-648cab265b",
+    title: "巴枯宁全集 Volume III：反对马克思的斗争",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, Volume III
+**中文**：巴枯宁全集·卷三：反对马克思的斗争
+**作者**：米哈伊尔·巴枯宁
+**语言**：意大利语
+**编者／导言**：Alfredo M. Bonanno
+**主题**：巴枯宁全集
+
+**内容概述**：围绕巴枯宁与马克思主义政治路线的论争，收录关于国家、权威、第一国际、阶级斗争、无产阶级自我解放、反对国家社会主义等问题的重要文本。
+
+**文件信息**：共 442 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   {
     slug: "book-6cf6d63676",
     title: "巴枯宁全集 Volume IV：国家制度与无政府状态",
@@ -1525,9 +1556,57 @@ export const books: Book[] = [
 
 完整 PDF 见 Notion 书籍页。`,
   },
-  { slug: "book-b2d6b6530d", title: "巴枯宁全集 Volume V：涅恰耶夫问题与俄国革命文献", category: "巴枯宁全集" },
-  { slug: "book-64c454553a", title: "巴枯宁全集 Volume VI：巴枯宁与第一国际及俄国革命运动文献", category: "巴枯宁全集" },
-  { slug: "book-e5ef7767ef", title: "巴枯宁全集 Volume VII：法德战争与法国社会革命 1870—1871", category: "巴枯宁全集" },
+  {
+    slug: "book-b2d6b6530d",
+    title: "巴枯宁全集 Volume V：涅恰耶夫问题与俄国革命文献",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, Volume V
+**中文**：巴枯宁全集·卷五：涅恰耶夫问题与俄国革命文献
+**作者**：米哈伊尔·巴枯宁
+**语言**：意大利语
+**编者／导言**：Alfredo M. Bonanno
+**主题**：巴枯宁全集
+
+**内容概述**：集中收录巴枯宁与谢尔盖·涅恰耶夫及俄国革命运动相关的文献，包括《致俄国军官》以及围绕革命组织、秘密组织、宣传与革命实践展开的材料。
+
+**文件信息**：共 297 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-64c454553a",
+    title: "巴枯宁全集 Volume VI：巴枯宁与第一国际及俄国革命运动文献",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, Volume VI
+**中文**：巴枯宁全集·卷六：巴枯宁与第一国际及俄国革命运动文献
+**作者**：米哈伊尔·巴枯宁
+**语言**：意大利语
+**主题**：巴枯宁全集
+
+**内容概述**：收入 1870 年以来书信、第一国际相关文献、俄国革命运动材料及编者注释，属于同一意大利文全集编纂系列。
+
+**文件信息**：共 366 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-e5ef7767ef",
+    title: "巴枯宁全集 Volume VII：法德战争与法国社会革命 1870—1871",
+    category: "巴枯宁全集",
+    body: `**原题**：Opere Complete, Volume VII: La guerra franco-tedesca e la rivoluzione sociale in Francia 1870—1871
+**中文**：巴枯宁全集·卷七：法德战争与法国社会革命 1870—1871
+**作者**：米哈伊尔·巴枯宁
+**编者**：Arthur Lehning
+**导言**：Alfredo M. Bonanno
+**语言**：意大利语
+**主题**：巴枯宁全集
+
+**内容概述**：集中收录法德战争及法国社会革命背景下的文字与文献，涉及 1870—1871 年法国局势、里昂革命运动、普法战争、国家危机与国际主义活动。
+
+**文件信息**：共 438 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-8a447b7e5a", title: "巴枯宁全集 Volume VIII：国家制度与社会革命", category: "巴枯宁全集" },
   {
     slug: "book-801e6366c3",
@@ -1556,10 +1635,51 @@ export const books: Book[] = [
 完整 PDF 见 Notion 书籍页。`,
   },
   { slug: "book-d11ccbc54d", title: "中国历史上几位安那其主义者", category: "20世纪中国无政府主义文献" },
-  { slug: "book-4655eea0da", title: "谈兵", category: "20世纪中国无政府主义文献" },
-  { slug: "book-9de12c0e0f", title: "新英雄主义", category: "20世纪中国无政府主义文献" },
+  {
+    slug: "book-4655eea0da",
+    title: "谈兵",
+    category: "20世纪中国无政府主义文献",
+    body: `**作者**：定僧（景梅九）
+**整理者**：暗鸣
+**文丛**：乌啼文丛·第5种
+**原刊**：《春雷月刊》1923年；此前曾在《国风日报·学汇副刊》连载
+**主题**：20世纪中国无政府主义文献
+
+**内容概述**：围绕战争、军队、征兵制度、军国主义与非军备主义展开讨论，批判以国家和军队为中心的战争制度，并讨论拒绝服兵役、反对军国主义等问题。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
+  {
+    slug: "book-9de12c0e0f",
+    title: "新英雄主义",
+    category: "20世纪中国无政府主义文献",
+    body: `**作者**：华林
+**文丛**：乌啼文丛·第8种
+**整理**：暗鸣
+**原版**：上海光华书局，1925年
+**主题**：20世纪中国无政府主义文献
+
+**内容概述**：收录《新英雄主义和理想之东方》《新英雄主义》《个性解放反抗社会之专制》等，讨论个人解放、个性、社会专制、艺术与无政府主义。
+
+**文件信息**：共 44 页。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-e7eac272e6", title: "《何典》序", category: "20世纪中国无政府主义文献" },
-  { slug: "book-6211955942", title: "中国古代无政府主义思潮之一瞥", category: "20世纪中国无政府主义文献" },
+  {
+    slug: "book-6211955942",
+    title: "中国古代无政府主义思潮之一瞥",
+    category: "20世纪中国无政府主义文献",
+    body: `**作者**：悟虚
+**整理**：暗鸣
+**文丛**：乌啼文丛第11种
+**原刊**：《自由》1922年；另刊《国风日报·学汇副刊》1923年
+**主题**：20世纪中国无政府主义文献
+
+**内容概述**：从中国古代思想中考察无政府主义思潮，讨论老子、庄子、许行等，并与近代无政府主义作比较。
+
+完整 PDF 见 Notion 书籍页。`,
+  },
   { slug: "book-f8c5cfe6f8", title: "无政府共产主义之心理上的解释", category: "20世纪中国无政府主义文献" },
   { slug: "book-7fc65d32c6", title: "李石曾最新革命论著初刊", category: "20世纪中国无政府主义文献" },
   { slug: "book-ef9795f2d7", title: "反抗国家——关于战争、革命与无产阶级的提纲", category: "未翻译&粗略翻译" },
